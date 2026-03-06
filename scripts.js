@@ -15,7 +15,7 @@ console.log(descriptionRoom("hallway"));
 console.log(descriptionRoom("kitchen"));
 
 let exampleNode = {
-    image: "entrance.jpg",
+    image: "./images/entrance.jpg",
     text: "You are now at the entrance!!! It's dark outside with scary noises.",
     choices: ["Go the hallway","Enter the kitchen"]
 };
@@ -26,22 +26,22 @@ console.log(exampleNode.choices);
 
 let storyNodes = [
 {
-    image: "entrance.jpg",
+    image: "./images/entrance.jpg",
     text: "You are now at the entrance!!! It's dark outside with scary noises.",
     choices: ["Go to the hallway","Enter the kitchen"]
 }, 
 {
-    image: "images/hallway.jpg",
+    image: "./images/hallway.jpg",
     text: "The hallway is dark and loud with screaming sounds",
     choices: ["Go upstairs", "return to entrance"]
 },
 {
-    image: "images/kitchen.jpg",
+    image: "./images/kitchen.jpg",
     text: "The kitchen is broken with mold and rats everywhere.",
     choices: ["Retrun to entrance", "Look around"]
 },
 {
-    image: "images/upstairs.jpg",
+    image: "./images/upstairs.jpg",
     text: "You are now upstairs. Its pitch quiet and dark.",
     choices: ["Go back downstairs", "Back to entrance"]
 }
